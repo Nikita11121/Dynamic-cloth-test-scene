@@ -6,6 +6,7 @@
     "com.unity.package-manager-ui": "2.0.3",
     "com.unity.purchasing": "2.0.3",
     "com.unity.textmeshpro": "1.3.0",
+    "com.xcrew.red": "1.1.4",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
@@ -36,5 +37,28 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Unity",
+      "url": "https://packages.unity.com",
+      "scopes": [
+        "com.unity"
+      ]
+    },
+    {
+      "name": "Plavalaguna",
+      "url": "http://188.227.74.28",
+      "scopes": [
+        "com.plavalaguna"
+      ]
+    },
+    {
+      "name": "XCrew",
+      "url": "http://xcrew.dev",
+      "scopes": [
+        "com"
+      ]
+    }
+  ]
 }
